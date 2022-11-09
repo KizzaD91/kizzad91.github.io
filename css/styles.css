@@ -1,0 +1,210 @@
+/* HTML Elements */
+
+body {
+    font-family: 'Montserrat';
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/* Headings */
+
+.big-heading {
+
+    font-size: 4.5rem;
+    font-weight: 900;
+}
+
+.small-heading {
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+/* Navbar Styles */
+
+.navbar {
+    padding-bottom: 4rem;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+    color: #CCD0D8;
+}
+
+.nav-link {
+    margin-left: 20px;
+}
+
+/* Sections */
+
+/* Title Section */
+
+#title {
+    background-color: #1463F3;
+    color: #CCD0D8;
+}
+
+#title-heading {
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.title-img {
+    width: 100%;
+}
+
+/* Features Section */
+
+#features {
+    text-align: center;
+    padding: 7% 0%;
+}
+
+.feature-title {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #1D2023;
+}
+
+.icon {
+    font-size: 4rem;
+    color: #84A4FC;
+    margin-bottom: 1rem;
+}
+
+/* Testimonials */
+
+#testimonials {
+    background-color: #84A4FC;
+    padding: 5% 0%;
+    color: #1D2023;
+}
+
+.testimonial-user {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.testimonial-text {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.carousel {
+    padding: 0% 10%;
+    text-align: center;
+    height: 13.5rem;
+}
+
+/* Sponsors */
+
+.company-row {
+    padding: 3% 0% 0% 0%;
+}
+
+.company-logo {
+    width: 75%;
+}
+
+
+
+/* Pricing */
+
+#pricing {
+    padding: 3% 15%;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.price-text-large {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1463F3;
+}
+
+.previous-price {
+    font-size: 1.2rem;
+    color: gray;
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+
+.main-card {
+    border-width: 2px;
+}
+
+/* Choose Us */
+
+#choose-us {
+    background-color: #1463F3;
+    color: white;
+}
+
+.choose-us-img {
+    width: 100%;
+}
+
+.choose-us-heading {
+    margin-bottom: 50px;
+}
+
+.choose-us-subheading {
+    margin-bottom: 50px;
+}
+
+.choose-us-btn-resources {
+    margin-left: 20px;
+}
+
+/* Footer */
+
+#footer {
+    text-align: center;
+    padding: 3% 0%;
+}
+
+#footer span {
+    margin-right: 10px;
+}
+
+.footer-icon {
+    font-size: 2rem;
+    margin: 0 20px 30px;
+}
+
+@media (max-width: 1000px) {
+    .title-row {
+        text-align: center;
+    }
+    
+    .company-row {
+        text-align: center;
+    }
+
+    .company-logo {
+        margin-bottom: 50px;
+    }
+
+    .carousel {
+        margin-bottom: 150px;
+        padding: 0% 12%;
+    }
+
+    .choose-us-row {
+        text-align: center;
+    }
+
+    .choose-us-btn {
+        margin-bottom: 50px;
+    }
+}
